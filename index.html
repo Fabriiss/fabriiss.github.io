@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <header class="head1">
+        <img src="logo.png" alt="Meu Logo" class="logo"> <!-- Colocando um logo -->
+        <h1 id="meuNome">Fabricio Tsuyoshi Yamatsuka</h1> <!-- Nome do cabeçalho -->
+    </header>
+
+    <ul class="linkus">
+        <li class="linkus"><a href="#sobre">Sobre mim</a></li> <!-- Lista de links para as outras páginas da navegação -->
+        <li class="linkus"><a href="#formacao">Formação</a></li>
+        <li class="linkus"><a href="#portfolio">Portfólio</a></li>
+        <li class="linkus"><a href="#contato">Contato</a></li>
+    </ul>
+
+    <!-- link "Sobre mim" -->
+    <section id="sobre">
+        <h1>Sobre mim</h1>
+        <p>Sou Fabricio Tsuyoshi Yamatsuka, estudante de Análise e Desenvolvimento de Sistemas...</p>
+        <h2>Hobbies</h2>
+        <p>Sobre meus hobbies acho que devo citar: RPG de Mesa, Animes, Videogames, Vôlei e Escrever histórias</p>
+    </section>
+
+    <!-- Link da "Formação" com listas -->
+    <section id="formacao">
+        <h1>Formação</h1>
+        <ul class="formacao-list1">
+            <li>Técnico em Programação de Jogos Digitais
+                <ul class="formacao-list">
+                    ETEC Prof. Fausto Mazzola 2019 - 2021
+                </ul>
+            </li>
+            <li>Photoshop do Básico ao Avançado
+                <ul class="formacao-list">
+                    Udemy - Anime Arte 2022
+                </ul>
+            </li>
+        </ul>
+        <h1>Idiomas</h1>
+        <ul class="formacao-list1">
+            <li>Espanhol Nível Médio
+                <ul class="formacao-list">
+                    Centro de Línguas Coronel João Cruz 2016 - 2018
+                </ul>
+            </li>
+            <li>Inglês Fluente
+                <ul class="formacao-list">
+                    Autodidático
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Link "Portfólio" com links para outros projetos -->
+    <section id="portfolio">
+        <h1>Meu portfólio</h1>
+        <h2>Site sobre línguas</h2>
+        <a href="Linguas/Pagina.html">Línguas</a>
+        <h2>Site sobre meus RPG's favoritos</h2>
+        <a href="RPG/RPG.html">Meus RPG's Favoritos</a>
+    </section>
+
+    <!-- link "Contato" com um formulário -->
+    <section id="contato">
+        <h1>Entre em Contato</h1>
+        <form id="formulario-contato" action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name "email" placeholder="Seu E-mail" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" required></textarea>
+            
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body{
+    margin: 0 auto;
+}
+.head1 {
+    background-color: rgb(86, 59, 156);
+    color: rgb(200, 172, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#meuNome {
+    margin-left: 10px;
+
+}
+
+
+ul.linkus {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(128, 67, 185);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+li.linkus {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial;
+    padding: 16px 30px; 
+    text-decoration: none;
+    font-weight: normal; 
+    transition: transform 0.2s, font-weight 0.2s; 
+}
+
+li a:hover {
+    background-color: rgb(161, 85, 233);
+    transform: scale(1.1);
+    font-weight: bold; 
+}
+
+section {
+    display: none;
+}
+
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+#sobre {
+    margin-left: 10px;
+}
+#sobre, p {
+    font-size: 25px;
+}
+
+#formacao{
+    text-align: left;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 25px;
+}
+.formacao-list1 {
+    font-weight: bold;
+}
+.formacao-list {
+    font-weight: 100;
+}
+
+#portfolio {
+    background-color: #f7f7f7; 
+    padding: 20px; 
+}
+
+#portfolio h1, #portfolio h2 {
+    color: #333; 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+#portfolio a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a659fd; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-right: 10px; 
+}
+
+#portfolio a:hover {
+    background-color: #a66bce; /* Cor de fundo do link no hover */
+}
+
+#contato {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+#formulario-contato {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#formulario-contato h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#formulario-contato label {
+    display: block;
+    margin-top: 10px;
+}
+
+#formulario-contato input,
+#formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario-contato button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#formulario-contato button:hover {
+    background-color: #0056b3;
+}
+
